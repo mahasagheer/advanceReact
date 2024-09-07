@@ -1,7 +1,12 @@
+import UseRef from "./components/UseRef";
+import Portals from "./components/portals";
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <UseRef />
+      <div id="modal">
+        <Portals />
+      </div>
     </>
   );
 }
