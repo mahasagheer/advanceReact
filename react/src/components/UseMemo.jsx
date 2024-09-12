@@ -12,7 +12,10 @@ const UseMemo = () => {
     setTotal(valueOne - valueTwo);
   };
   const DIV = () => {
-    setTotal(valueOne / valueTwo);
+    if (valueTwo === 0) {
+      return setTotal(0);
+    }
+    return setTotal(valueOne / valueTwo);
   };
   const MUL = () => {
     setTotal(valueOne * valueTwo);

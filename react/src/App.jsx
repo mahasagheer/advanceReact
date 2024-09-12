@@ -2,6 +2,7 @@ import UseRef from "./components/UseRef";
 import Portals from "./components/portals";
 import UseMemo from "./components/UseMemo";
 import UseReducer from "./components/UseReducer";
+import Redux from "./components/redux";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
       </div>
       <UseMemo />
       <UseReducer />
+      <Redux />
     </>
   );
 }
